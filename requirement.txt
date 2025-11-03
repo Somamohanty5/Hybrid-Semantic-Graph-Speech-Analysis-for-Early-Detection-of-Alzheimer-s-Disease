@@ -1,0 +1,21 @@
+# === Core Libraries ===
+pandas
+numpy
+scikit-learn
+matplotlib
+networkx
+nltk
+
+# === Deep Learning ===
+torch
+torchvision
+torchaudio
+
+# === NLP / Transformers ===
+transformers
+sentence-transformers
+
+# === Utility ===
+tqdm
+seaborn
+jupyter
