@@ -18,4 +18,6 @@ sentence-transformers
 # === Utility ===
 tqdm
 seaborn
+
+# === Optional ===
 jupyter
