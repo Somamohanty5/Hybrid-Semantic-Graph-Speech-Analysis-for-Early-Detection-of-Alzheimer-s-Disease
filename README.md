@@ -14,9 +14,13 @@ We combine:
 
 ## 📊 Dataset
 - **Source:** DementiaBank Pitt Corpus (Cookie Theft Picture Description Task)
-- **Samples:** ~240 participants (≈170 AD, ≈70 controls)
-- **Data Used:** Transcripts only (text), no audio
-- **Ethics:** Fully de-identified research data, used for non-commercial academic research
+- **Access:** Restricted academic dataset (not publicly shareable)
+- **Used Data:** Transcripts only (no audio)
+- **Note:** Due to data-use agreement, this repository includes *no raw or derived data*.  
+  To reproduce results, please request access directly from DementiaBank:  
+  🔗 https://dementia.talkbank.org/
+
+You may substitute your own speech or text dataset following the same format:
 
 ---
 
@@ -59,12 +63,7 @@ Two sentences connect if they are “visible” to each other in the sequence of
 - Graph structure adds complementary insight into **thought organization**.  
 - The hybrid model improves early, explainable detection — using text only.
 
----
-
-## 🧑‍💻 How to Run
-```bash
-pip install -r requirements.txt
-python scripts/embed_sentence_transformer.py
-python scripts/graph_features_hvg_nvg.py
-python scripts/random_forest_ablation.py
-python scripts/bilstm_attention.py
+⚠️ **Data Disclaimer**
+This repository does not include any DementiaBank data, transcripts, or derived features.
+All rights belong to the original data custodians.  
+Only reproducible code and sample placeholders are provided for research transparency.
