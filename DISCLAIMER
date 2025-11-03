@@ -1,0 +1,8 @@
+This repository does not contain any DementiaBank data, transcripts, or derived features.
+All rights to the DementiaBank Pitt Corpus belong to the University of Pittsburgh and TalkBank.
+
+The sample files included are purely synthetic and for demonstration purposes only.
+To reproduce experiments, researchers must request official data access directly from DementiaBank:
+https://dementia.talkbank.org/
+
+All analyses, models, and scripts in this repository were developed for academic and educational use.
